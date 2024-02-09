@@ -1,0 +1,68 @@
+body {
+    background-color: hsl(0, 0%, 8%);
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 85vh;
+    text-align: center;
+}
+
+main {
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 0.7rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 20rem;
+}
+
+.profile-image {
+    width: 30%;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    display:block;
+}
+
+h1 {
+    color: hsl(0, 0%, 100%);
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.location {
+    color: hsl(75, 94%, 57%);
+    font-weight: 600;
+    font-size: 0.75rem;
+    margin-bottom: 1rem;
+}
+
+.tagline {
+    color: hsl(0, 0%, 100%);
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.social-link {
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    padding: 0.65rem;
+    margin: 0.4rem;
+    font-weight: 600;
+    font-size: 0.7rem;
+    width: 17rem;
+}
+
+.social-link:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+}
